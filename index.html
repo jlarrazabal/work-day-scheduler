@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <ul class="flexbox">
+        <li id="time-slot-0" data-time="9" class="flex-item hour">09:00 AM</li>
+        <li class="task-container"><input id="task0" class="flex-item row" type="text" value="" placeholder="Type the name of the task or meeting"></textarea></li>
+        <li><button type="button" name="button" class="saveBtn">🔓🔒</button></li>
+      </ul>
+      <ul class="flexbox">
+        <li id="time-slot-1" data-time="10" class="flex-item hour">10:00 AM</li>
+        <li class="task-container"><input id="task1" class="flex-item row" type="text" value="" placeholder="Type the name of the task or meeting"></li>
+        <li><button type="button" name="button" class="saveBtn">🔓🔒</button></li>
+      </ul>
+      <ul class="flexbox">
+        <li id="time-slot-2" data-time="11" class="flex-item hour">11:00 AM</li>
+        <li class="task-container"><input id="task2" class="flex-item row" type="text" value="" placeholder="Type the name of the task or meeting"></li>
+        <li><button type="button" name="button" class="saveBtn">🔓🔒</button></li>
+      </ul>
+      <ul class="flexbox">
+        <li id="time-slot-3" data-time="12" class="flex-item hour">12:00 PM</li>
+        <li class="task-container"><input id="task3" class="flex-item row" type="text" value="" placeholder="Type the name of the task or meeting"></li>
+        <li><button type="button" name="button" class="saveBtn">🔓🔒</button></li>
+      </ul>
+      <ul class="flexbox">
+        <li id="time-slot-4" data-time="13" class="flex-item hour">01:00 PM</li>
+        <li class="task-container"><input id="task4" class="flex-item row" type="text" value="" placeholder="Type the name of the task or meeting"></li>
+        <li><button type="button" name="button" class="saveBtn">🔓🔒</button></li>
+      </ul>
+      <ul class="flexbox">
+        <li id="time-slot-5" data-time="14" class="flex-item hour">02:00 PM</li>
+        <li class="task-container"><input id="task5" class="flex-item row" type="text" value="" placeholder="Type the name of the task or meeting"></li>
+        <li><button type="button" name="button" class="saveBtn">🔓🔒</button></li>
+      </ul>
+      <ul class="flexbox">
+        <li id="time-slot-6" data-time="15" class="flex-item hour">03:00 PM</li>
+        <li class="task-container"><input id="task6" class="flex-item row" type="text" value="" placeholder="Type the name of the task or meeting"></li>
+        <li><button type="button" name="button" class="saveBtn">🔓🔒</button></li>
+      </ul>
+      <ul class="flexbox">
+        <li id="time-slot-7" data-time="16" class="flex-item hour">04:00 PM</li>
+        <li class="task-container"><input id="task7" class="flex-item row" type="text" value="" placeholder="Type the name of the task or meeting"></li>
+        <li><button type="button" name="button" class="saveBtn">🔓🔒</button></li>
+      </ul>
+      <ul class="flexbox">
+        <li id="time-slot-8" data-time="17" class="flex-item hour">05:00 PM</li>
+        <li class="task-container"><input id="task8" class="flex-item row" type="text" value="" placeholder="Type the name of the task or meeting"></li>
+        <li><button type="button" name="button" class="saveBtn">🔓🔒</button></li>
+      </ul>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="assets/js/script.js" charset="utf-8"></script>
+  </body>
+</html>
