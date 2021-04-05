@@ -16,6 +16,6 @@
 
 - In the header section of the web page, the user will see the current date and time for reference.
 
-2. Image:
+3. Image:
 
 ![](assets/images/final-result.png)
