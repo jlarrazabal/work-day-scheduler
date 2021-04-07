@@ -1,10 +1,12 @@
 # work-day-scheduler
 
-1. Summary:
+1. Link to the application: https://jlarrazabal.github.io/work-day-scheduler/
+
+2. Summary:
 
 - This project allows keeping a simple agenda for the meetings or tasks of the day. It is set for a regular work shift of 9 AM to 6 PM, being the 5 PM time slot the last work hour of the day.
 
-2. Functionality:
+3. Functionality:
 
 - The slots where the user can type the name of the tasks or meetings will change color depending on the current time, indicating if the time slots are in the past (gray - default), present (red), or future (green).
 
@@ -16,6 +18,6 @@
 
 - In the header section of the web page, the user will see the current date and time for reference.
 
-3. Image:
+4. Image:
 
 ![](assets/images/final-result.png)
